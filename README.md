@@ -6,6 +6,12 @@
 
 - 最简代码模版，开箱即用，支持自动路由、全局布局、自动导入、组件自动注册。
 
+## 基于此模板创建新项目
+
+```bash
+git clone git@github.com:HeroCloudy/wumeng-vue3-app-template.git --depth 1 -b main your-project-name 
+```
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
