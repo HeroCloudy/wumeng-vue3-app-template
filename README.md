@@ -6,10 +6,23 @@
 
 - 最简代码模版，开箱即用，支持自动路由、全局布局、自动导入、组件自动注册。
 
+## 分支说明
+
+- main： 最简模板代码
+- element-plus： 集成了 element-plus
+
 ## 基于此模板创建新项目
 
+可以通用 -b 指定要拉取的分支
+
+1. 拉取最简模板（main 分支）
 ```bash
 git clone git@github.com:HeroCloudy/wumeng-vue3-app-template.git --depth 1 -b main your-project-name 
+```
+
+2. 拉取集成 Element Plus 的模板（element-plus 分支）
+```bash
+git clone git@github.com:HeroCloudy/wumeng-vue3-app-template.git --depth 1 -b element-plus your-project-name 
 ```
 
 ## Recommended IDE Setup
