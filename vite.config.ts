@@ -10,7 +10,6 @@ import Layouts from 'vite-plugin-vue-layouts'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
-import eslint from 'vite-plugin-eslint'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
@@ -45,7 +44,6 @@ export default defineConfig({
       directoryAsNamespace: false,
       resolvers: [ElementPlusResolver()],
     }),
-    eslint(),
     vueDevTools(),
   ],
   resolve: {
